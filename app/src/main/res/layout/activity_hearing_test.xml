@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="25dp">
+
+    <CheckBox
+        android:id="@+id/fail19k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="17dp"
+        android:background="@xml/failed_icon"
+        android:button="@null"
+        android:stateListAnimator="@animator/scale"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn19k" />
+
+    <CheckBox
+        android:id="@+id/fail13k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="13dp"
+        android:background="@xml/failed_icon"
+        android:button="@null"
+        android:stateListAnimator="@animator/scale"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn13k" />
+
+    <ImageView
+        android:id="@+id/btn19k"
+        android:layout_width="100dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn13k"
+        app:srcCompat="@drawable/e19k" />
+
+    <ImageView
+        android:id="@+id/btn15k"
+        android:layout_width="100dp"
+        android:layout_height="94dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn8k"
+        app:srcCompat="@drawable/e15k" />
+
+    <ImageView
+        android:id="@+id/btn13k"
+        android:layout_width="100dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn3k"
+        app:srcCompat="@drawable/e13k" />
+
+    <ImageView
+        android:id="@+id/btn8k"
+        android:layout_width="100dp"
+        android:layout_height="94dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/e8k" />
+
+    <ImageView
+        android:id="@+id/btn3k"
+        android:layout_width="100dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/e3k" />
+
+    <CheckBox
+        android:id="@+id/check19k"
+        android:layout_width="24dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="17dp"
+        android:background="@xml/passed_icon"
+        android:button="@null"
+        android:stateListAnimator="@animator/scale"
+        app:layout_constraintStart_toEndOf="@+id/fail19k"
+        app:layout_constraintTop_toBottomOf="@+id/btn19k" />
+
+    <CheckBox
+        android:id="@+id/check15k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="68dp"
+        android:layout_marginTop="13dp"
+        android:background="@xml/passed_icon"
+        android:button="@null"
+        android:stateListAnimator="@animator/scale"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn15k" />
+
+    <CheckBox
+        android:id="@+id/fail15k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="13dp"
+        android:background="@xml/failed_icon"
+        android:button="@null"
+        android:stateListAnimator="@animator/scale"
+        app:layout_constraintEnd_toStartOf="@+id/check15k"
+        app:layout_constraintTop_toBottomOf="@+id/btn15k" />
+
+    <CheckBox
+        android:id="@+id/check13k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="13dp"
+        android:background="@xml/passed_icon"
+        android:button="@null"
+        android:stateListAnimator="@animator/scale"
+        app:layout_constraintStart_toEndOf="@+id/fail13k"
+        app:layout_constraintTop_toBottomOf="@+id/btn13k" />
+
+    <CheckBox
+        android:id="@+id/check8k"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginTop="11dp"
+        android:background="@xml/passed_icon"
+        android:button="@null"
+        android:stateListAnimator="@animator/scale"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn8k" />
+
+    <CheckBox
+        android:id="@+id/fail3k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="11dp"
+        android:background="@xml/failed_icon"
+        android:button="@null"
+        android:stateListAnimator="@animator/scale"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn3k" />
+
+    <CheckBox
+        android:id="@+id/fail8k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="11dp"
+        android:background="@xml/failed_icon"
+        android:button="@null"
+        android:stateListAnimator="@animator/scale"
+        app:layout_constraintEnd_toStartOf="@+id/check8k"
+        app:layout_constraintTop_toBottomOf="@+id/btn8k" />
+
+    <CheckBox
+        android:id="@+id/check3k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="11dp"
+        android:background="@xml/passed_icon"
+        android:button="@null"
+        android:stateListAnimator="@animator/scale"
+        app:layout_constraintStart_toEndOf="@+id/fail3k"
+        app:layout_constraintTop_toBottomOf="@+id/btn3k" />
+
+    <Button
+        android:background="@drawable/buttonstylewhite"
+        android:id="@+id/btnEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="16dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.guappo.testyourbody">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="false"
+        android:xlargeScreens="false" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.SignInActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.SignUpActivity" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".daltonia.VisionTestActivity"
+            android:label="@string/visionTest"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".activity.HearingTestActivity"
+            android:label="@string/hearingTest"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".activity.AccountActivity"
+            android:label="@string/account"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".activity.BMIActivity"
+            android:label="@string/calculateBmi"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".activity.HeartRateMonitorActivity"
+            android:label="@string/heartRateMonitor"
+            android:theme="@style/MyAppTheme" />
+        <activity
+            android:name=".daltonia.HomeActivity"
+            android:theme="@style/MyAppTheme"/>
+        <activity
+            android:name=".daltonia.ResultActivity"
+            android:theme="@style/MyAppTheme"/>
+        <activity
+            android:name=".ResultsActivity"
+            android:theme="@style/MyAppTheme">
+        </activity>
+        <activity android:name=".splashscreen.SplashScreenIntro" />
+        <activity android:name=".splashscreen.SplashScreenHearing" />
+        <activity android:name=".splashscreen.SplashScreenHeartRate" />
+        <activity android:name=".splashscreen.SplashScreenVision" />
+        <activity android:name=".splashscreen.SplashScreenBMI" />
+    </application>
+
+</manifest>

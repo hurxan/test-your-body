@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary1">#3F51B5</color>
+    <color name="colorPrimary">#23283A</color>
+    <color name="colorPrimaryDark">#23283A</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pink">#fe104d</color>
+    <color name="white">#ffffff</color>
+    <color name="lightgray">#ededed</color>
+
+
+    <color name="first_slide_background">#3cba54</color>
+    <color name="first_slide_buttons">#2c8e3f</color>
+
+    <color name="custom_slide_background">#4885ed</color>
+    <color name="custom_slide_buttons">#3b6ec4</color>
+
+    <color name="third_slide_background">#f4c20d</color>
+    <color name="third_slide_buttons">#d6aa0b</color>
+
+    <color name="fourth_slide_background">#db3236</color>
+    <color name="fourth_slide_buttons">#ba2a2e</color>
+
+
+
+
+    <!--Splash Screen-->
+    <item name="splash_background" type="color">@color/colorPrimary</item>
+</resources>

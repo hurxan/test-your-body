@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TestYourBody</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="login">Accedi</string>
+    <string name="signup">Registrati</string>
+    <string name="signUpNoAcc">Non hai un account? Registrati</string>
+    <string name="welcome">Benvenuto su TYB</string>
+    <string name="or">oppure</string>
+    <string name="infoCredits">Crediti</string>
+    <string name="logout">Esci</string>
+    <string name="settings">Impostazioni</string>
+    <string name="visionTest">Test vista</string>
+    <string name="hearingTest">Test udito</string>
+    <string name="heartRateMonitor">Battito cardiaco</string>
+    <string name="home">Home</string>
+    <string name="infoSettings">Cambia qualche stronzata</string>
+    <string name="calculateBmi">BMI</string>
+    <string name="repeatPassword">RIPETI PASSWORD</string>
+    <string name="helpFeedback">Aiuto &amp; feedback</string>
+    <string name="homeApplication">Test Your Body</string>
+    <string name="infoHeartRateMonitor">Misura il tuo&#xA;battito cardiaco</string>
+    <string name="infoCalculateBMI">Misura il tuo BMI</string>
+    <string name="infoVisionTest">Effettua un test della vista</string>
+    <string name="infoHearingTest">Effettua un test dell\'udito</string>
+    <string name="logInNoAcc">Hai già un Account? Accedi</string>
+    <string name="learnMore">Scopri di più</string>
+    <string name="emailRequired">Email necessaria</string>
+    <string name="passwordRequired">Password necessaria</string>
+    <string name="emailNotValid">Inserire un\'email valida</string>
+    <string name="emailLength">La lunghezza minima dell\'email è 6</string>
+    <string name="passwordNotEquals">Le password devono essere uguali</string>
+    <string name="heightTxt">Altezza:</string>
+    <string name="weightTxt">Peso:</string>
+    <string name="error_message">Accetta i termi e le condizioni prima di proseguire</string>
+    <string name="check_to_pass">Acceto i termini e le condizioni</string>
+    <string name="height">Altezza</string>
+    <string name="weight">Peso</string>
+    <string name="summary_support">Hai qualcosa da chiedere o un problema da risolvere?</string>
+    <string name="summary_faq">Domande richieste frequentemente</string>
+    <string name="summary_about">Siamo un gruppo di studenti dell\' ITI Severi di Padova</string>
+    <string name="switchMeasure">Cambia unita\' di misura</string>
+    <string name="welcomeText">Benvenuto su TestYourBody, un applicazione interattiva che ti permette di effettuare diversi test relativi alla tua salute</string>
+</resources>

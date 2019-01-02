@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <SurfaceView
+
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_height="554dp"
+            android:layout_weight="1"></SurfaceView>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:text="00"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heartbeat2"></TextView>
+
+
+    <TextView
+        android:id="@+id/lblBPM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:text="Beats per minute"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text" />
+
+    <com.gigamole.library.PulseView
+        android:id="@+id/pulseview"
+        android:layout_width="wrap_content"
+        android:layout_height="181dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/heartbeat"
+        app:pv_alpha="100"
+        app:pv_color="#eae761"
+        app:pv_count="8"
+        app:pv_icon="@drawable/ic_heart_white"
+        app:pv_icon_height="194dp"
+        app:pv_icon_width="168dp"
+        app:pv_interpolator="@android:anim/linear_interpolator"
+        app:pv_measure="height"
+        app:pv_spawn_period="700" />
+
+
+    <com.guappo.testyourbody.HeartBeatView
+        android:id="@+id/heartbeat2"
+        android:layout_width="0dp"
+        android:layout_height="181dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="100dp"
+        android:visibility="visible"
+        app:duration="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/heartbeat" />
+
+    <com.guappo.testyourbody.HeartBeatView
+        android:id="@+id/heartbeat"
+        android:layout_width="0dp"
+        android:layout_height="181dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:visibility="invisible"
+        app:duration="100"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

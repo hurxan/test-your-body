@@ -1,0 +1,116 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">TestYourBody</string>
+
+    <!-- Login and Signup strings -->
+
+    <string name="welcome">Welcome to TYB</string>
+    <string name="welcomeText">This is a message that will be shown to the customer at the moment of sign in or sign up... etc ... etc...</string>
+    <string name="learnMore">Learn More</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="repeatPassword">REPEAT PASSWORD</string>
+    <string name="login">Log In</string>
+    <string name="signup">Sign Up</string>
+    <string name="logInNoAcc">Already have an Account? Sign In</string>
+    <string name="or">or</string>
+
+    <string name="emailRequired">Email is required</string>
+    <string name="passwordRequired">Password is required</string>
+    <string name="emailNotValid">Please enter a valid email</string>
+    <string name="emailLength">Email minimum length is 6</string>
+    <string name="passwordNotEquals">Password must be the same</string>
+
+    <string name="calculateBmi">Calculate BMI</string>
+    <string name="home">Home</string>
+    <string name="heartRateMonitor">Heart Rate Monitor</string>
+    <string name="hearingTest">Hearing Test</string>
+    <string name="visionTest">Vision Test</string>
+    <string name="settings">Settings</string>
+    <string name="account">Account</string>
+    <string name="helpFeedback">Help &amp; feedback</string>
+    <string name="logout">Logout</string>
+    <string name="infoCredits">Credits</string>
+    <string name="homeApplication">Test Your Body</string>
+
+    <string name="infoHeartRateMonitor">Measure your&#xA;Heart Rate</string>
+    <string name="infoCalculateBMI">Measure your&#xA;BMI</string>
+    <string name="infoVisionTest">Test the accuracy&#xA;of your eyes</string>
+    <string name="infoHearingTest">Test the accuracy&#xA;of your ears</string>
+    <string name="infoSettings">Change some shit</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <string name="action_settings">Settings</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="title_auto_upload">Auto upload</string>
+    <string name="summary_upload_over_wifi">Upload the videos when wifi is available</string>
+    <string name="pref_title_notifications">Notifications</string>
+    <string name="summary_choose_ringtone">Choose notification sound</string>
+    <string name="pref_header_about">About</string>
+    <string name="summary_about">We are a team of students from ITI Severi, Padova</string>
+    <string name="app_version">1.0</string>
+    <string name="summary_support">Got any queries? We are happy to help!</string>
+    <string name="title_send_feedback">Send Feedback</string>
+    <string name="title_faq">FAQ</string>
+    <string name="summary_faq">View frequently asked questions</string>
+    <string name="url_faq">https://pastebin.com/raw/bVDw0GBZ</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="url_privacy">https://pastebin.com/raw/bVDw0GBZ</string>
+    <string name="title_terms">Terms &amp; Conditions</string>
+    <string name="url_terms">https://pastebin.com/raw/bVDw0GBZ</string>
+    <string name="title_version">Version</string>
+    <string name="choose_email_client">Choose email client</string>
+    <string name="title_gallery_storage">Default Storage</string>
+    <string name="title_new_notification_sound">New message notification</string>
+    <string name="key_send_feedback">key_send_feedback</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+
+    <string name="saved_high_score_key"></string>
+
+
+    <string name="unitHeight">cm</string>
+    <string name="unitWeight">kg</string>
+    <string name="unitHeightUK">in</string>
+    <string name="unitWeightUK">lb</string>
+
+    <string name="check_to_pass">I accept terms and conditions.</string>
+    <string name="error_message">Please accept terms and conditions first.</string>
+    <string name="launch_intro_activity">Launch intro activity</string>
+    <string name="lorem_ipsum" tools:ignore="StringEscaping">Questi termini di servizio si applicano al tuo accesso e utilizzo di Test Your Body. Per favore leggili attentamente.
+Se accedi o utilizzi il Servizio, significa che accetti di essere vincolato da tutti i termini sottostanti. Quindi, prima di utilizzare il Servizio, leggi tutti i termini. Se non si accettano tutti i termini riportati di seguito, si prega di non utilizzare il Servizio. Inoltre, se un termine non ha senso per voi, fatecelo sapere inviando una e-mail a testyourbodyapp2018@gmail.com.
+Ci riserviamo il diritto di modificare questi Termini in qualsiasi momento. Ad esempio, potremmo aver bisogno di modificare questi Termini se usciamo con una nuova funzione o per qualche altro motivo.
+Ogni volta che apportiamo modifiche ai presenti Termini, le modifiche sono effettive 1 settimana dopo la pubblicazione di tali Termini rivisti (indicati con la revisione della data nella parte superiore di questi Termini) o dopo l'accettazione se forniamo un meccanismo per l'accettazione immediata dei Termini modificati (come una conferma di click-through o un pulsante di accettazione). È tua responsabilità controllare Test Your Body per le modifiche a questi Termini.
+Se continui ad utilizzare il Servizio dopo che i Termini rivisti entrano in vigore, allora hai accettato le modifiche a questi Termini.
+Di volta in volta, potremmo fornirvi collegamenti a siti Web di terzi o servizi che non possediamo o controlliamo. L'utilizzo del Servizio può anche includere l'utilizzo di applicazioni sviluppate o di proprietà di terzi. L'utilizzo di tali applicazioni, siti Web e servizi di terze parti è regolato dai termini di servizio o dalle norme sulla privacy di tale parte. Ti invitiamo a leggere i termini e le condizioni e l'informativa sulla privacy di qualsiasi applicazione, sito Web o servizio di terze parti visitati o utilizzati.
+Quando si crea un account o si utilizza un altro servizio per accedere al Servizio, l'utente accetta di mantenere la sicurezza della propria password e accetta tutti i rischi di accesso non autorizzato a qualsiasi dato o altra informazione fornita al Servizio.
+Se scoprite o sospettate qualsiasi violazione della sicurezza del servizio, fatecelo sapere il prima possibile.
+Abbiamo investito molte energie nella creazione del Servizio, inclusi il logo e tutti i design, testi, grafici, immagini, informazioni e altri contenuti (esclusi i contenuti). Questa proprietà è di nostra proprietà o dei nostri licenzianti ed è protetta dall' Italia e dalle leggi internazionali sul copyright. Vi garantiamo il diritto di usarlo.
+Tuttavia, a meno che non dichiariamo espressamente diversamente, i tuoi diritti non includono: (i) esibizione pubblica o visualizzazione pubblica del Servizio; (ii) modificare o altrimenti effettuare qualsiasi utilizzo derivato del Servizio o parte di esso; (iii) utilizzare qualsiasi data mining, robot o metodi simili per la raccolta o l'estrazione di dati; (iv) scaricare (tranne la memorizzazione nella cache della pagina) di qualsiasi parte del Servizio o qualsiasi informazione in essa contenuta; (v) il reverse engineering o l'accesso al Servizio per costruire un prodotto o servizio competitivo; o (vi) utilizzo del Servizio diverso da quello previsto. Se fai qualcosa di questo, potremmo interrompere l'utilizzo del Servizio.
+Collegamenti ipertestuali e contenuti di terze parti
+È possibile creare un collegamento ipertestuale al servizio. Tuttavia, non è possibile utilizzare, inquadrare o utilizzare tecniche di framing per includere i nostri marchi, loghi o altre informazioni proprietarie senza il nostro esplicito consenso scritto.
+guAPPo non ha alcuna pretesa o dichiarazione in merito, e non si assume alcuna responsabilità per i siti Web di terzi accessibili tramite collegamento ipertestuale dal Servizio o dai siti Web che collegano al Servizio. Quando lasci il Servizio, devi essere consapevole che questi Termini e le nostre politiche non governano più.
+In caso di contenuto del Servizio da parte tua e di altri, non lo esaminiamo, lo verifichiamo o lo autenticiamo e potrebbero includere inesattezze o informazioni false. Non rilasciamo dichiarazioni, garanzie o garanzie relative alla qualità, idoneità, verità, accuratezza o completezza di qualsiasi contenuto contenuto nel Servizio. L'utente riconosce la responsabilità esclusiva e si assume tutti i rischi derivanti dall'uso o dall'affidamento su qualsiasi contenuto.
+QUALSIASI SERVIZIO E CONTENUTO INCLUSO O ALTRIMENTI RESO DISPONIBILE PER L'UTENTE ATTRAVERSO IL SERVIZIO SONO FORNITI ALL'UTENTE O COME BASE DISPONIBILE SENZA ALCUNA DICHIARAZIONE O GARANZIA DI ALCUN TIPO. NON RICONOSCIAMO ALCUNE GARANZIE E DICHIARAZIONI (ESPRESSE O IMPLICITE, ORALI O SCRITTE) RELATIVE AL SERVIZIO E AL CONTENUTO INCLUSO O ALTRIMENTI RESI DISPONIBILI TRAMITE IL SERVIZIO SE SAREBBERO PREVISTO DAL FUNZIONAMENTO DELLA LEGGE, PER MOTIVO O USO NEL COMMERCIO, PER CORSO DI TRATTAMENTO O ALTRIMENTI.
+IN NESSUN CASO GUAPPo SARÀ RESPONSABILE NEI CONFRONTI DI TERZE PARTI PER DANNI SPECIALI, INDIRETTI, ACCIDENTALI, ESEMPLARI O CONSEQUENZIALI DI QUALSIASI TIPO DERIVANTI DA O IN CONNESSIONE CON IL SERVIZIO O QUALSIASI ALTRO SERVIZIO E / O CONTENUTO INCLUSO O ALTRIMENTI EFFETTUATO DISPONIBILE PER VOI ATTRAVERSO IL SERVIZIO, INDIPENDENTEMENTE DALLA FORMA DI AZIONE, SIA IN CONTRATTO, TORT, RESPONSABILITÀ RESPONSABILE O ALTRIMENTI, ANCHE SE SIA STATA INFORMATA DELLA POSSIBILITÀ DI TALI DANNI O SIA CONSAPEVOLE DELLA POSSIBILITÀ DI TALI DANNI. LA NOSTRA RESPONSABILITÀ TOTALE PER TUTTE LE CAUSE DI AZIONE E SOTTO TUTTE LE TEORIE DI RESPONSABILITÀ SARÀ LIMITATA ALL'IMPORTO PAGATO PER GUAPPo. QUESTA SEZIONE SARÀ DOTATA DI EFFETTO PIENO ANCHE QUALORA QUALSIASI RIMEDIO SPECIFICATO IN QUESTO ACCORDO SIA RITENUTO DI ESSERE FALLITO DAL SUO SCOPO ESSENZIALE.
+Accetti di difendere, indennizzare e tenere indenne da e contro ogni e tutti i costi, i danni, le responsabilità e le spese (comprese le spese legali, i costi, le penali, gli interessi e gli esborsi) sostenuti in relazione a, derivanti da o per il scopo di evitare qualsiasi rivendicazione o richiesta da parte di terzi relativa all'utilizzo del Servizio o all'utilizzo del Servizio da parte di qualsiasi persona che utilizza il proprio account, incluso qualsiasi reclamo secondo cui l'utilizzo del Servizio viola qualsiasi legge o regolamento applicabile, o il diritti di terzi e / o la violazione delle presenti Condizioni.
+Prendiamo sul serio i diritti di proprietà intellettuale. In conformità con il Digital Millennium Copyright Act ("DMCA") e altre leggi applicabili, abbiamo adottato una politica di risoluzione, in circostanze appropriate e, a nostra esclusiva discrezione, dell'accesso al servizio per gli utenti che si ritiene siano recidivi.
+La validità delle presenti Condizioni e i diritti, gli obblighi e i rapporti delle parti ai sensi dei presenti Termini saranno interpretati e determinati ai sensi e in conformità con le leggi italiane, senza riguardo ai conflitti di principi di legge.
+L'utente accetta espressamente che la giurisdizione esclusiva per qualsiasi controversia con il Servizio o relativa al suo utilizzo, risiede nei tribunali d'Italia e l'utente accetta e esprime espressamente l'esercizio della giurisdizione personale nei tribunali d'Italia situati a Padova in relazione a qualsiasi controversia di questo tipo, compresi eventuali reclami relativi al Servizio. Accetti inoltre che tu e il Servizio non inizierete contro l'altro un'azione collettiva, un arbitrato di classe o altra azione o procedimento rappresentativo.
+In caso di violazione di uno qualsiasi dei presenti Termini, abbiamo il diritto di sospendere o disabilitare l'accesso o l'utilizzo del Servizio.
+Le presenti Condizioni costituiscono l'intero accordo tra te e guAPPo in merito all'utilizzo del Servizio, sostituendo eventuali accordi precedenti tra te e guAPPo relativi al tuo utilizzo del Servizio.
+Per favore fateci sapere cosa ne pensate del Servizio, i presenti Termini e, in generale, Test Your Body. Quando ci fornite commenti, commenti o suggerimenti sul Servizio, i presenti Termini e, in generale, Test Your Body, assegnate irrevocabilmente a noi tutti i vostri diritti, titoli e interessi nei vostri commenti, commenti e suggerimenti.
+Domande o commenti sul Servizio possono essere indirizzati a noi all'indirizzo email testyourbodyapp2018@gmail.com
+La nostra applicazione non mostra risultati clinici o medici reali, ma solo dati che devono essere verificati da esperti.
+Non rispondiamo per risultati errati perché sono una stima.
+Non rispondiamo per eventuali danni o problemi causati dai nostri test (ad esempio Hearing Test).
+</string>
+    <string name="weightTxt">Weight:</string>
+    <string name="heightTxt">Height:</string>
+    <string name="normalTxt">Normal</string>
+    <string name="switchMeasure">Switch unit of measure</string>
+</resources>

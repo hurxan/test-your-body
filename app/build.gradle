@@ -1,0 +1,45 @@
+//noinspection GradleCompatible
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.guappo.testyourbody"
+        minSdkVersion 22
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation 'com.google.firebase:firebase-auth:15.0.0'
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.android.support:support-v4:26.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    api 'com.google.firebase:firebase-auth:15.0.0'
+    api 'com.google.android.gms:play-services-auth:15.0.0'
+    api 'com.android.support:cardview-v7:26.1.0'
+    api 'com.android.support:design:26.1.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    api 'com.android.support:preference-v7:26.1.0'
+    api 'com.github.devlight.pulseview:library:+'
+    api 'agency.tango.android:material-intro-screen:+'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.github.devlight:infinitecycleviewpager:1.0.2'
+    implementation "android.arch.persistence.room:runtime:1.0.0"
+    annotationProcessor "android.arch.persistence.room:compiler:1.0.0"
+}
+apply plugin: 'com.google.gms.google-services'
