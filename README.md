@@ -18,7 +18,7 @@
     Measure some of the vital signs with an application
     <br />
     <br />
-    <a href="https://github.com/andreisenyuva/TestYourBody/issues">Report a Bug</a>
+    <a href="https://github.com/hurxan/TestYourBody/issues">Report a Bug</a>
   </p>
 </div>
 
@@ -76,7 +76,7 @@ It mainly has 4 different features:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/andreisenyuva/TestYourBody.git
+   git clone https://github.com/hurxan/TestYourBody.git
    ```
 2. Open the downloaded project and open it with Android Studio
 3. Run
@@ -88,17 +88,17 @@ It mainly has 4 different features:
 
 Andrei Senyuva - senyuva.andrei@gmail.com
 
-[Project Link](https://github.com/andreisenyuva/TestYourBody)
+[Project Link](https://github.com/hurxan/TestYourBody)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/andreisenyuva/TestYourBody.svg?style=for-the-badge
-[contributors-url]: https://github.com/andreisenyuva/TestYourBody/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/andreisenyuva/TestYourBody.svg?style=for-the-badge
-[forks-url]: https://github.com/andreisenyuva/TestYourBody/network/members
-[stars-shield]: https://img.shields.io/github/stars/andreisenyuva/TestYourBody.svg?style=for-the-badge
-[stars-url]: https://github.com/andreisenyuva/TestYourBody/stargazers
-[issues-shield]: https://img.shields.io/github/issues/andreisenyuva/TestYourBody.svg?style=for-the-badge
-[issues-url]: https://github.com/andreisenyuva/TestYourBody/issues
+[contributors-shield]: https://img.shields.io/github/contributors/hurxan/TestYourBody.svg?style=for-the-badge
+[contributors-url]: https://github.com/hurxan/TestYourBody/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/hurxan/TestYourBody.svg?style=for-the-badge
+[forks-url]: https://github.com/hurxan/TestYourBody/network/members
+[stars-shield]: https://img.shields.io/github/stars/hurxan/TestYourBody.svg?style=for-the-badge
+[stars-url]: https://github.com/hurxan/TestYourBody/stargazers
+[issues-shield]: https://img.shields.io/github/issues/hurxan/TestYourBody.svg?style=for-the-badge
+[issues-url]: https://github.com/hurxan/TestYourBody/issues
