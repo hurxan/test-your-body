@@ -83,15 +83,6 @@ It mainly has 4 different features:
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- CONTACT -->
-## Contact
-
-Andrei Senyuva - senyuva.andrei@gmail.com
-
-[Project Link](https://github.com/hurxan/TestYourBody)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/hurxan/TestYourBody.svg?style=for-the-badge
